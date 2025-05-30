@@ -1,0 +1,44 @@
+# 🧠 CryptoBuddy: Your First AI-Powered Financial Sidekick! 🌟
+
+Welcome to CryptoBuddy — a beginner-friendly, AI-powered chatbot that helps users choose the right cryptocurrency based on profitability and sustainability.
+
+## 🚀 Project Overview
+
+This chatbot uses basic AI decision-making logic to recommend cryptocurrencies from a predefined dataset. It’s built with simple `if-else` statements in Python to demonstrate how AI can make choices based on trends and criteria.
+
+## 🔍 Features
+
+- Responds to user queries about crypto trends
+- Gives investment suggestions based on price trends and sustainability
+- Offers advice using rule-based logic
+- Beginner-friendly and easily expandable
+
+## 🛠 Tools Used
+
+- Python 3
+- Google Colab / Jupyter Notebook
+- Dataset: Predefined in code (no external API required)
+
+## 🗂 Dataset
+
+```python
+crypto_db = {
+    "Bitcoin": {
+        "price_trend": "rising",
+        "market_cap": "high",
+        "energy_use": "high",
+        "sustainability_score": 3/10
+    },
+    "Ethereum": {
+        "price_trend": "stable",
+        "market_cap": "high",
+        "energy_use": "medium",
+        "sustainability_score": 6/10
+    },
+    "Cardano": {
+        "price_trend": "rising",
+        "market_cap": "medium",
+        "energy_use": "low",
+        "sustainability_score": 8/10
+    }
+}
